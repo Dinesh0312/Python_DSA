@@ -1,6 +1,11 @@
-n = int(input("Enter the number: "))
+n = int(input("Enter the number : "))
+sum = 0
 
-i = 1
-while i <= n:
-    print(int("1" * i), end = " ")
-    i += 1
+for i in range(1,(n//2)+1):
+    if n%i == 0:
+        sum = sum + i
+
+if sum == n:
+    print("Its a perfect number")
+else:
+    print("Its not a perfect number")
