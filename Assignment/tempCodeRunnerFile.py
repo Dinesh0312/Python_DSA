@@ -1,11 +1,8 @@
-n = int(input("Enter the number : "))
-sum = 0
-
-for i in range(1,(n//2)+1):
-    if n%i == 0:
-        sum = sum + i
-
-if sum == n:
-    print("Its a perfect number")
-else:
-    print("Its not a perfect number")
+for i in range(5,0,-1):
+    for j in range(5,i-1,-1):
+        print(j,end=" ")
+    print()
+for i in range(1,5):
+    for j in range(5,i,-1):
+        print(j,end=" ")
+    print()
