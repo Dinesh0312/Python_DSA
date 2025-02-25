@@ -1,6 +1,9 @@
-my_list = [5, 7, 33, 21, 56, 38, 76, 45, 432, 4, 543, 54, 654, 654, 654]
+def find_max_number(nums: list):
 
-n = len(my_list)
-print(n)
-for i in range(0, n):
-    print(my_list[i])
+    n = len(nums)
+    maxi = float("-inf")
+    for i in range(0, n):
+        if nums[i] > maxi:
+            maxi = nums[i]
+    return maxi
+    return max(nums)

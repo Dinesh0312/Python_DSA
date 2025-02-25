@@ -1,5 +1,6 @@
-# Dictionary (Key datatype should be immutable (str,int,float,tuple))
-# Value anything -> List, Dictionary
+# Dictionary
+# Key datatype should be immutable (str,int,float,tuple)
+# Value anything -> List, Dictionary,tuple,int,string
 
 my_dict = {
     "Physics": 56,
